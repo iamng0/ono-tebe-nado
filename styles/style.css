@@ -1,1 +1,101 @@
-/* место для вашего кода */
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main {
+    width: 1440px;
+
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    margin: 92px 50px;
+    width: 100%;
+    height: 109px;
+    font-size: 18px;
+    font-weight: 400;  
+    
+}
+
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    height: 109px; 
+    
+}
+
+.header__links-list {
+  display: flex; 
+   
+}
+
+.header__links-list-item {
+    margin-right: 32px;
+    list-style: circle;  
+}
+
+.header__links-list-item_no-bullit {
+    margin-right: 32px;
+    list-style: none;
+   
+}
+
+nav a {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.header-logo {
+    box-sizing: border-box;
+    width: 148px;
+    height: 105px;
+    margin-right: 179px;
+    
+
+    
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    gap: 2px;
+    margin-right: 103px;
+    margin-top: 8px;
+    
+    
+}
+
+.header__address-tel {
+    width: max-content;
+    text-decoration: none;
+}
+
+.header__address-tel::after {
+content: "";
+display: block;
+width: 100%;
+height: 1px;
+background-color: black;
+}
+
+.header__address-mail {
+    width: max-content;
+    text-decoration: none;
+}
+
+.header__address-mail::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
